@@ -3,6 +3,10 @@ html, body {
     padding: 0;
 }
 
+html {
+    font-size: 20px;
+}
+
 button {
     padding: 0;
     border: none;
@@ -21,7 +25,7 @@ button {
 
 .title {
     border-bottom: 1px solid gray;
-    font-size: 64px;
+    font-size: 3.2rem;
     line-height: 100%;
     letter-spacing: -0.02em;
     color: #012B34;
@@ -41,13 +45,12 @@ button {
 }
 
 .subtitle {
-    font-size: 36px;
+    font-size: 1.8rem;
 }
 
 .text {
     display: none;
     padding: 10px 0 40px 0;
-    font-size: 20px;
     opacity: 0.8;
 }
 
@@ -56,7 +59,7 @@ button {
 }
 
 .button {
-    font-size: 36px;
+    font-size: 1.8rem;
     margin-left: 25px;
     height: 40px;
 }
@@ -68,4 +71,28 @@ button {
 
 .activeSubtitle {
     color: #02818A;
+}
+
+@media (max-width: 500px) {
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    .title {
+        font-size: 1.6rem;
+        padding: 25px 0 25px 0;
+    }
+
+    .button {
+        font-size: 0.9rem;
+    }
+
+    .item_subtitle {
+        margin: 10px 0;
+    }
+
+    .text {
+        font-size: 0.5rem;
+        padding: 5px 0 10px 0;
+    }
 }
