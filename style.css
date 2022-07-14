@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Roboto', serif;
+    padding: 0 25px;
+}
+
+.title {
+    border-bottom: 1px solid gray;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #012B34;
+    padding: 50px 0 50px 0;
+}
+
+.item {
+    border-bottom: 1px solid gray;
+    color: #012B34;
+}
+
+.item_subtitle {
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.subtitle {
+    font-size: 36px;
+}
+
+.text {
+    display: none;
+    padding: 10px 0 40px 0;
+    font-size: 20px;
+}
+
+.textToggle {
+    display: block;
+}
+
+.button {
+    font-size: 36px;
+    padding-left: 25px;
+}
